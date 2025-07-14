@@ -1,4 +1,4 @@
-# XKCD Offline Tool
+# xkcd Offline Tool
 
 A Go CLI tool for downloading, indexing, and searching XKCD comics offline. Implementation of Exercise 4.12 from "The Go Programming Language" book.
 
@@ -13,7 +13,7 @@ A Go CLI tool for downloading, indexing, and searching XKCD comics offline. Impl
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/MrChildrenJ/xkcd-Offline.git
 cd xkcd
 ```
 
@@ -74,8 +74,7 @@ Comics are stored in `xkcd_index.json` with the following structure:
 
 ```bash
 go run xkcd.go show 666
-```
-```bash
+
 ┌─ XKCD #666 ─────────────────────────────────────
 │ Title: Silent Hammer
 │ Date:  2009-11-23
@@ -109,8 +108,7 @@ go run xkcd.go show 666
 ```
 ```bash
 go run xkcd.go search "silent hammer"
-```
-```bash
+
 Found 38 comics matching 'silent hammer':
 
 1. #666: Silent Hammer (score: 44)
